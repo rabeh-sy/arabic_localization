@@ -4,3 +4,5 @@
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
+arabic_localization.patches.v0_1.add_plural_name_fields
+arabic_localization.patches.v0_1.set_default_plural_name_patch_1

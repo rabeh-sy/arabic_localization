@@ -1,0 +1,100 @@
+#. Option for the 'Chart Type' (Select) field in DocType 'Dashboard Chart'
+#. Option for the 'Group By Type' (Select) field in DocType 'Dashboard Chart'
+#. Option for the 'Function' (Select) field in DocType 'Number Card'
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
+#: frappe/desk/doctype/number_card/number_card.json
+#: frappe/public/js/frappe/form/controls/password.js:88
+#: frappe/public/js/frappe/ui/group_by/group_by.js:21
+msgid "Average"
+msgstr "عادي"
+
+#: frappe/public/js/frappe/form/form_tour.js:276
+#: frappe/public/js/frappe/widgets/base_widget.js:159
+msgid "Collapse"
+msgstr "إغلاق"
+
+#: frappe/public/js/frappe/form/controls/code.js:179
+msgctxt "Shrink code field."
+msgid "Collapse"
+msgstr "إغلاق"
+
+#: frappe/public/js/frappe/views/reports/query_report.js:1980
+#: frappe/public/js/frappe/views/treeview.js:110
+msgid "Collapse All"
+msgstr "إغلاق الكل"
+
+#: frappe/public/js/frappe/ui/slides.js:355
+msgctxt "Finish the setup wizard"
+msgid "Complete Setup"
+msgstr "استكمال الإعداد"
+
+#: frappe/public/js/frappe/form/controls/password.js:90
+msgid "Excellent"
+msgstr "ممتازة"
+
+#: frappe/www/update-password.html:274
+msgid "Hint: Include symbols, numbers and capital letters in the password"
+msgstr "تلميح: أضف الرموز والأرقام والأحرف الكبيرة إلى كلمة المرور لتجعلها أقوى"
+
+#: frappe/public/js/frappe/form/controls/password.js:106
+msgid "Include symbols, numbers and capital letters in the password"
+msgstr "أضف الرموز والأرقام والأحرف الكبيرة إلى كلمة المرور لتجعلها أقوى"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:452
+msgid "Let's set up your account"
+msgstr "لنقم بإعداد حسابك"
+
+#: frappe/public/js/frappe/form/form_tour.js:15
+#: frappe/public/js/frappe/web_form/web_form.js:95
+#: frappe/public/js/onboarding_tours/onboarding_tours.js:16
+#: frappe/templates/includes/slideshow.html:34
+#: frappe/website/web_template/slideshow/slideshow.html:40
+msgid "Previous"
+msgstr "السابق"
+
+#: frappe/public/js/frappe/ui/slides.js:351
+msgctxt "Go to previous slide"
+msgid "Previous"
+msgstr "السابق"
+
+#: frappe/public/js/frappe/form/toolbar.js:313
+msgid "Previous Document"
+msgstr "الوثيقة السابقة"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:387
+msgid "Select Country"
+msgstr "اختر البلد"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:404
+msgid "Select Currency"
+msgstr "اختر عملة"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:379
+msgid "Select Language"
+msgstr "اختر اللغة"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:396
+msgid "Select Time Zone"
+msgstr "اختر منطقة زمنية"
+
+#: frappe/printing/doctype/print_style/print_style.json
+#: frappe/website/doctype/web_template/web_template.json
+msgid "Standard"
+msgstr "أساسي"
+
+#: frappe/public/js/frappe/form/controls/password.js:89
+msgid "Strong"
+msgstr "قوية"
+
+#: frappe/public/js/frappe/form/controls/password.js:87
+msgid "Weak"
+msgstr "ضعيفة"
+
+#: frappe/desk/page/setup_wizard/setup_wizard.js:372
+msgid "Welcome"
+msgstr "أهلاً وسهلاً"
+
+#: frappe/public/js/frappe/views/workspace/workspace.js:35
+msgctxt "Workspace Category"
+msgid "Public"
+msgstr "عام"

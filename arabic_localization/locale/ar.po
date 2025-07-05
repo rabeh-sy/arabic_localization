@@ -98,3 +98,410 @@ msgstr "أهلاً وسهلاً"
 msgctxt "Workspace Category"
 msgid "Public"
 msgstr "عام"
+
+#. Label of a standard navbar item
+#. Type: Action
+#: frappe/hooks.py
+msgid "Toggle Theme"
+msgstr "تغيير السمة"
+
+#. Label of a standard navbar item
+#. Type: Route
+#: frappe/hooks.py
+msgid "My Profile"
+msgstr "حسابي الشخصي"
+
+#. Label of a standard navbar item
+#. Type: Action
+#: frappe/hooks.py
+msgid "My Settings"
+msgstr "إعداداتي"
+
+#. Name of a DocType
+#: frappe/core/doctype/session_default/session_default.json
+msgid "Session Default"
+msgstr "القيم الافتراضية للجلسة"
+
+#. Name of a DocType
+#: frappe/core/doctype/session_default_settings/session_default_settings.json
+msgid "Session Default Settings"
+msgstr "إعدادات القيم الافتراضية للجلسة"
+
+#. Label of a standard navbar item
+#. Type: Action
+#. Label of a Table field in DocType 'Session Default Settings'
+#: frappe/core/doctype/session_default_settings/session_default_settings.json
+#: frappe/hooks.py frappe/public/js/frappe/ui/toolbar/toolbar.js:321
+msgid "Session Defaults"
+msgstr "القيم الافتراضية للجلسة"
+
+#: frappe/public/js/frappe/ui/toolbar/toolbar.js:306
+msgid "Session Defaults Saved"
+msgstr "تم حفظ القيم الافتراضية للجلسة"
+
+#. Label of a standard navbar item
+#. Type: Route
+#: frappe/hooks.py frappe/templates/includes/navbar/navbar_login.html:18
+#: frappe/website/js/website.js:617
+msgid "Apps"
+msgstr "التطبيقات"
+
+#. Label of a standard navbar item
+#. Type: Action
+#: frappe/hooks.py
+msgid "Toggle Full Width"
+msgstr "تغيير وضع الشاشة العريضة"
+
+#: frappe/core/doctype/session_default_settings/session_default_settings.py:37
+msgid "Default {0}"
+msgstr "{0} الافتراضي"
+
+#. Label of a standard navbar item
+#. Type: Action
+#: frappe/hooks.py
+#: frappe/website/doctype/website_settings/website_settings.py:182
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+#: frappe/core/doctype/installed_applications/installed_applications.js:18
+#: frappe/public/js/frappe/ui/toolbar/about.js:8
+msgid "Installed Apps"
+msgstr "التطبيقات المنزّلة"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:4
+msgid "Frappe Framework"
+msgstr "إطار عمل فرابيه"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:8
+msgid "&copy; Frappe Technologies Pvt. Ltd. and contributors"
+msgstr "فرابيه للتقنية الخاصة ذات المسؤولية المحدودة، ومشاركون &copy;"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:8
+msgid "&copy; Rabeh Technologies Ltd, Syria"
+msgstr "رابح للتقنية ذات المسؤولية المحدودة، سوريا &copy;"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:8
+msgid "Loading versions..."
+msgstr "جاري تحميل الإصدارات"
+
+#. Label of a Check field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+#: frappe/public/js/frappe/ui/notifications/notifications.js:50
+#: frappe/public/js/frappe/ui/notifications/notifications.js:187
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:315
+msgid "No New notifications"
+msgstr "لا يوجد إشعارات جديدة"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:315
+msgid "Looks like you haven’t received any notifications."
+msgstr "يبدو أنك لم تتلقّ أية إشعارات بعد."
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:56
+msgid "Events"
+msgstr "الأحداث"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:435
+msgid "No Upcoming Events"
+msgstr "لا يوجد أحداث قادمة"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:435
+msgid "There are no upcoming events for you."
+msgstr "لا يوجد أحداث قادمة."
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:62
+msgid "What's New"
+msgstr "ما الجديد"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:485
+msgid "Nothing New"
+msgstr "لا يوجد مستجدات"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:485
+msgid "There is nothing new to show you right now."
+msgstr "لا يوجد مستجدات لنعرضها حالياً."
+
+#: frappe/public/js/frappe/ui/toolbar/navbar.html:29
+msgid "Search or type a command ({0})"
+msgstr "إبحث أو أدخل تعليمة ({0})"
+
+#. Label of a Check field in DocType 'Google Calendar'
+#. Label of a Check field in DocType 'Google Contacts'
+#. Label of a Check field in DocType 'Google Drive'
+#. Label of a Check field in DocType 'Google Settings'
+#: frappe/integrations/doctype/google_calendar/google_calendar.json
+#: frappe/integrations/doctype/google_contacts/google_contacts.json
+#: frappe/integrations/doctype/google_drive/google_drive.json
+#: frappe/integrations/doctype/google_settings/google_settings.json
+msgid "Enable"
+msgstr "تشغيل"
+
+#: frappe/automation/doctype/auto_repeat/auto_repeat.py:119
+msgid "Enable Allow Auto Repeat for the doctype {0} in Customize Form"
+msgstr "تشغيل السماح للتكرار التلقائي للنمط {0} في تخصيص النموذج"
+
+#. Label of a Check field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Enable Auto Reply"
+msgstr "تشغيل الرد التلقائي"
+
+#. Label of a Check field in DocType 'S3 Backup Settings'
+#: frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json
+msgid "Enable Automatic Backup"
+msgstr "تشغيل النسخ الاحتياطي التلقائي"
+
+#. Label of a Check field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+msgid "Enable Automatic Linking in Documents"
+msgstr "تشغيل الربط التلقائي في المستندات"
+
+#. Label of a Check field in DocType 'Web Page'
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Enable Comments"
+msgstr "تشغيل التعليقات"
+
+#. Label of a Check field in DocType 'Blog Post'
+#: frappe/website/doctype/blog_post/blog_post.json
+msgid "Enable Email Notification"
+msgstr "تشغيل إشعارات البريد الإلكتروني"
+
+#. Label of a Check field in DocType 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+msgid "Enable Email Notifications"
+msgstr "تشغيل إشعارات البريد الإلكتروني"
+
+#: frappe/integrations/doctype/google_calendar/google_calendar.py:106
+#: frappe/integrations/doctype/google_contacts/google_contacts.py:36
+#: frappe/website/doctype/website_settings/website_settings.py:129
+msgid "Enable Google API in Google Settings."
+msgstr "تشغيل Google API في إعدادات Google."
+
+#. Label of a Check field in DocType 'Website Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Enable Google indexing"
+msgstr "تشغيل أرشفة Google"
+
+#. Label of a Check field in DocType 'Email Account'
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_account/email_account.py:197
+msgid "Enable Incoming"
+msgstr "تشغيل الوارد"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Enable Onboarding"
+msgstr "تشغيل التعرّف على النظام"
+
+#. Label of a Check field in DocType 'User Email'
+#. Label of a Check field in DocType 'Email Account'
+#: frappe/core/doctype/user_email/user_email.json
+#: frappe/email/doctype/email_account/email_account.json
+#: frappe/email/doctype/email_account/email_account.py:205
+msgid "Enable Outgoing"
+msgstr "تشغيل البريد الصادر"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Enable Password Policy"
+msgstr "تشغيل سياسة كلمة المرور"
+
+#. Label of a Check field in DocType 'Role Permission for Page and Report'
+#: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
+msgid "Enable Prepared Report"
+msgstr "تشغيل التقرير المعد"
+
+#. Label of a Check field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Enable Print Server"
+msgstr "تشغيل خادم الطباعة"
+
+#. Label of a Check field in DocType 'Push Notification Settings'
+#: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
+msgid "Enable Push Notification Relay"
+msgstr "تشغيل تتابع الإشعارات"
+
+#. Label of a Check field in DocType 'Server Script'
+#: frappe/core/doctype/server_script/server_script.json
+msgid "Enable Rate Limit"
+msgstr "تشغيل تحديد الاستخدام"
+
+#. Label of a Check field in DocType 'Print Settings'
+#: frappe/printing/doctype/print_settings/print_settings.json
+msgid "Enable Raw Printing"
+msgstr "تشغيل الطباعة الخام"
+
+#: frappe/core/doctype/report/report.js:36
+msgid "Enable Report"
+msgstr "تشغيل التقرير"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Enable Scheduled Jobs"
+msgstr "تشغيل المهام المجدولة"
+
+#: frappe/core/doctype/rq_job/rq_job_list.js:23
+msgid "Enable Scheduler"
+msgstr "تشغيل المُجدوِل"
+
+#. Label of a Check field in DocType 'Webhook'
+#: frappe/integrations/doctype/webhook/webhook.json
+msgid "Enable Security"
+msgstr "تشغيل الأمن"
+
+#. Label of a Check field in DocType 'Social Login Key'
+#: frappe/integrations/doctype/social_login_key/social_login_key.json
+msgid "Enable Social Login"
+msgstr "تشغيل تسجيل الدخول بالمنصات الاجتماعية"
+
+#. Label of a Check field in DocType 'Blog Settings'
+#: frappe/website/doctype/blog_settings/blog_settings.json
+msgid "Enable Social Sharing"
+msgstr "تشغيل المشاركة على المنصات الاجتماعية"
+
+#: frappe/website/doctype/website_settings/website_settings.js:139
+msgid "Enable Tracking Page Views"
+msgstr "تشغيل تتبع مشاهدات الصفحة"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/twofactor.py:434
+msgid "Enable Two Factor Auth"
+msgstr "تشغيل عامل المصادقة الثنائي"
+
+#. Title of an Onboarding Step
+#: frappe/website/onboarding_step/enable_website_tracking/enable_website_tracking.json
+msgid "Enable Website Tracking"
+msgstr "تشغيل تتبع الموقع"
+
+#: frappe/printing/doctype/print_format_field_template/print_format_field_template.py:28
+msgid "Enable developer mode to create a standard Print Template"
+msgstr "السماح لوضع التطوير بإنشاء قالب طباعة عادي"
+
+#: frappe/website/doctype/web_template/web_template.py:34
+msgid "Enable developer mode to create a standard Web Template"
+msgstr "قم بتشغيل وضع المطور لإنشاء قالب ويب عادي"
+
+#. Description of the 'Enable Email Notification' (Check) field in DocType
+#. 'Blog Post'
+#: frappe/website/doctype/blog_post/blog_post.json
+msgid "Enable email notification for any comment or likes received on your Blog Post."
+msgstr "تشغيل إشعارات البريد الإلكتروني لأي تعليق أو إعجاب على منشورك."
+
+#. Description of the 'Modal Trigger' (Check) field in DocType 'Form Tour Step'
+#: frappe/desk/doctype/form_tour_step/form_tour_step.json
+msgid "Enable if on click\n"
+"opens modal."
+msgstr "تشغيل فتح النافذة\n"
+"عند الضغط."
+
+#. Label of a Check field in DocType 'Website Settings'
+#: frappe/website/doctype/website_settings/website_settings.json
+msgid "Enable in-app website tracking"
+msgstr "تشغيل تتبّع الموقع داخل التطبيق"
+
+#. Label of a Check field in DocType 'Language'
+#. Label of a Check field in DocType 'User'
+#. Label of a Check field in DocType 'Client Script'
+#. Label of a Check field in DocType 'Notification Settings'
+#. Label of a Check field in DocType 'Auto Email Report'
+#. Label of a Check field in DocType 'Notification'
+#. Label of a Check field in DocType 'Currency'
+#. Label of a Check field in DocType 'Dropbox Settings'
+#. Label of a Check field in DocType 'LDAP Settings'
+#. Label of a Check field in DocType 'Webhook'
+#. Label of a Check field in DocType 'Energy Point Rule'
+#. Label of a Check field in DocType 'Energy Point Settings'
+#. Label of a Check field in DocType 'Portal Menu Item'
+#: frappe/core/doctype/language/language.json
+#: frappe/core/doctype/user/user.json
+#: frappe/custom/doctype/client_script/client_script.json
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+#: frappe/email/doctype/auto_email_report/auto_email_report.json
+#: frappe/email/doctype/notification/notification.json
+#: frappe/geo/doctype/currency/currency.json
+#: frappe/integrations/doctype/dropbox_settings/dropbox_settings.json
+#: frappe/integrations/doctype/ldap_settings/ldap_settings.json
+#: frappe/integrations/doctype/webhook/webhook.json
+#: frappe/public/js/frappe/model/indicator.js:106
+#: frappe/public/js/frappe/model/indicator.js:117
+#: frappe/social/doctype/energy_point_rule/energy_point_rule.json
+#: frappe/social/doctype/energy_point_settings/energy_point_settings.json
+#: frappe/website/doctype/portal_menu_item/portal_menu_item.json
+msgid "Enabled"
+msgstr "نشط"
+
+#: frappe/core/doctype/rq_job/rq_job_list.js:29
+msgid "Enabled Scheduler"
+msgstr "المُجدوِل يعمل"
+
+#: frappe/email/doctype/email_account/email_account.py:939
+msgid "Enabled email inbox for user {0}"
+msgstr "صندوق الوارد للبريد الإلكتروني للمستخدم {0} نشط"
+
+#: frappe/core/doctype/server_script/server_script.py:243
+msgid "Enabled scheduled execution for script {0}"
+msgstr "تشغيل التنفيذ المجدول للكود {0}"
+
+#: frappe/desk/form/save.py:46 frappe/model/rename_doc.py:106
+#: frappe/printing/page/print_format_builder/print_format_builder.js:845
+#: frappe/public/js/frappe/form/toolbar.js:284
+#: frappe/public/js/frappe/views/kanban/kanban_board.bundle.js:912
+msgid "Saved"
+msgstr "تم الحفظ"
+
+#. Label of a Check field in DocType 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+msgid "Mentions"
+msgstr "الذكر في تعليق"
+
+#. Label of a Check field in DocType 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:253
+msgid "Assignments"
+msgstr "التعيينات"
+
+
+#. Label of a Check field in DocType 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+msgid "Email Threads on Assigned Document"
+msgstr "الرسائل الإلكترونية على الوثائق المعيّنة"
+
+#. Description of the 'Email Threads on Assigned Document' (Check) field in
+#. DocType 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+msgid "Get notified when an email is received on any of the documents assigned to you."
+msgstr "تلقّى إشعاراً عندما يصل بريد إلكتروني لأي وثيقة تم تعيينك عليها."
+
+#. Label of a Check field in DocType 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+#: frappe/desk/page/user_profile/user_profile.html:28
+#: frappe/desk/page/user_profile/user_profile_controller.js:80
+#: frappe/desk/page/user_profile/user_profile_controller.js:114
+#: frappe/desk/page/user_profile/user_profile_controller.js:402
+#: frappe/templates/emails/energy_points_summary.html:39
+msgid "Energy Points"
+msgstr "نقاط التحفيز"
+
+#. Name of a role
+#: frappe/contacts/doctype/salutation/salutation.json
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/domain/domain.json
+#: frappe/core/doctype/module_def/module_def.json
+#: frappe/core/doctype/page/page.json
+#: frappe/core/doctype/patch_log/patch_log.json
+#: frappe/core/doctype/recorder/recorder.json
+#: frappe/core/doctype/report/report.json
+#: frappe/core/doctype/rq_job/rq_job.json
+#: frappe/core/doctype/transaction_log/transaction_log.json
+#: frappe/core/doctype/user_type/user_type.json
+#: frappe/core/doctype/version/version.json
+#: frappe/custom/doctype/client_script/client_script.json
+#: frappe/custom/doctype/custom_field/custom_field.json
+#: frappe/custom/doctype/property_setter/property_setter.json
+#: frappe/desk/doctype/dashboard_chart_source/dashboard_chart_source.json
+#: frappe/desk/doctype/onboarding_step/onboarding_step.json
+#: frappe/website/doctype/website_theme/website_theme.json
+msgid "Administrator"
+msgstr "المسؤول"

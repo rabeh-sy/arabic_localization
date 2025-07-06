@@ -1231,3 +1231,39 @@ msgstr "قبل {0} ساعات"
 #: frappe/public/js/frappe/ui/theme_switcher.js:130
 msgid "Theme Changed"
 msgstr "تم تغيير السمة"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:45
+msgid "Mark all as read"
+msgstr "تحديد الكل كمقروء"
+
+#: frappe/model/meta.py:49 frappe/public/js/frappe/model/meta.js:201
+#: frappe/public/js/frappe/model/model.js:126
+msgid "Last Updated On"
+msgstr "تاريخ آخر تعديل"
+
+#: frappe/core/doctype/data_import/importer.py:1127
+#: frappe/core/doctype/data_import/importer.py:1133
+#: frappe/core/doctype/data_import/importer.py:1198
+#: frappe/core/doctype/data_import/importer.py:1201
+#: frappe/desk/report/todo/todo.py:36 frappe/model/meta.py:45
+#: frappe/public/js/frappe/data_import/data_exporter.js:330
+#: frappe/public/js/frappe/data_import/data_exporter.js:345
+#: frappe/public/js/frappe/list/list_settings.js:337
+#: frappe/public/js/frappe/list/list_view.js:388
+#: frappe/public/js/frappe/list/list_view.js:451
+#: frappe/public/js/frappe/model/meta.js:197
+#: frappe/public/js/frappe/model/model.js:122
+msgid "ID"
+msgstr "المعرّف"
+
+#: frappe/desk/doctype/dashboard_chart/dashboard_chart.js:241
+#: frappe/email/doctype/notification/notification.js:32 frappe/model/meta.py:46
+#: frappe/public/js/frappe/model/meta.js:198
+#: frappe/public/js/frappe/model/model.js:125
+#: frappe/public/js/frappe/views/dashboard/dashboard_view.js:479
+msgid "Created On"
+msgstr "تاريخ الإنشاء"
+
+#: frappe/public/js/frappe/ui/sort_selector.js:193
+msgid "Most Used"
+msgstr "الأكثر استخداماً"

@@ -59,7 +59,11 @@ msgstr "السابق"
 
 #: frappe/public/js/frappe/form/toolbar.js:313
 msgid "Previous Document"
-msgstr "الوثيقة السابقة"
+msgstr "المستند السابق"
+
+#: frappe/public/js/frappe/form/toolbar.js:321
+msgid "Next Document"
+msgstr "المستند التالي"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:387
 msgid "Select Country"
@@ -292,7 +296,7 @@ msgstr "تشغيل الوارد"
 #. Label of a Check field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Enable Onboarding"
-msgstr "تشغيل التعرّف على النظام"
+msgstr "تشغيل الجولة التعريفية بالنظام"
 
 #. Label of a Check field in DocType 'User Email'
 #. Label of a Check field in DocType 'Email Account'
@@ -363,12 +367,6 @@ msgstr "تشغيل المشاركة على المنصات الاجتماعية"
 #: frappe/website/doctype/website_settings/website_settings.js:139
 msgid "Enable Tracking Page Views"
 msgstr "تشغيل تتبع مشاهدات الصفحة"
-
-#. Label of a Check field in DocType 'System Settings'
-#: frappe/core/doctype/system_settings/system_settings.json
-#: frappe/twofactor.py:434
-msgid "Enable Two Factor Auth"
-msgstr "تشغيل عامل المصادقة الثنائي"
 
 #. Title of an Onboarding Step
 #: frappe/website/onboarding_step/enable_website_tracking/enable_website_tracking.json
@@ -460,19 +458,18 @@ msgstr "الذكر في تعليق"
 #: frappe/desk/doctype/notification_settings/notification_settings.json
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:253
 msgid "Assignments"
-msgstr "التعيينات"
-
+msgstr "التكليفات"
 
 #. Label of a Check field in DocType 'Notification Settings'
 #: frappe/desk/doctype/notification_settings/notification_settings.json
 msgid "Email Threads on Assigned Document"
-msgstr "الرسائل الإلكترونية على الوثائق المعيّنة"
+msgstr "الرسائل الإلكترونية على الوثائق المكلّفة إليك"
 
 #. Description of the 'Email Threads on Assigned Document' (Check) field in
 #. DocType 'Notification Settings'
 #: frappe/desk/doctype/notification_settings/notification_settings.json
 msgid "Get notified when an email is received on any of the documents assigned to you."
-msgstr "تلقّى إشعاراً عندما يصل بريد إلكتروني لأي وثيقة تم تعيينك عليها."
+msgstr "تلقّى إشعاراً عندما يصل بريد إلكتروني لأي وثيقة تم تكليفها لك."
 
 #. Label of a Check field in DocType 'Notification Settings'
 #: frappe/desk/doctype/notification_settings/notification_settings.json
@@ -505,3 +502,732 @@ msgstr "نقاط التحفيز"
 #: frappe/website/doctype/website_theme/website_theme.json
 msgid "Administrator"
 msgstr "المسؤول"
+
+#. Option for the 'Icon' (Select) field in DocType 'Workflow State'
+#: frappe/workflow/doctype/workflow_state/workflow_state.json
+msgid "edit"
+msgstr "تعديل"
+
+#. Option for the 'Comment Type' (Select) field in DocType 'Comment'
+#: frappe/core/doctype/comment/comment.json
+#: frappe/core/page/dashboard_view/dashboard_view.js:169
+#: frappe/printing/page/print_format_builder/print_format_builder_start.html:8
+#: frappe/printing/page/print_format_builder_beta/print_format_builder_beta.js:46
+#: frappe/printing/page/print_format_builder_beta/print_format_builder_beta.js:85
+#: frappe/public/js/frappe/form/controls/markdown_editor.js:31
+#: frappe/public/js/frappe/form/footer/form_timeline.js:654
+#: frappe/public/js/frappe/form/footer/form_timeline.js:663
+#: frappe/public/js/frappe/form/templates/address_list.html:7
+#: frappe/public/js/frappe/form/templates/contact_list.html:7
+#: frappe/public/js/frappe/form/toolbar.js:683
+#: frappe/public/js/frappe/views/reports/query_report.js:817
+#: frappe/public/js/frappe/views/reports/query_report.js:1652
+#: frappe/public/js/frappe/views/workspace/workspace.js:98
+#: frappe/public/js/frappe/views/workspace/workspace.js:847
+#: frappe/public/js/frappe/widgets/base_widget.js:64
+#: frappe/public/js/frappe/widgets/chart_widget.js:299
+#: frappe/public/js/frappe/widgets/number_card_widget.js:335
+#: frappe/templates/discussions/reply_card.html:29
+#: frappe/templates/discussions/reply_section.html:29
+#: frappe/workflow/page/workflow_builder/workflow_builder.js:46
+#: frappe/workflow/page/workflow_builder/workflow_builder.js:84
+msgid "Edit"
+msgstr "تعديل"
+
+#: frappe/public/js/frappe/list/list_view.js:2043
+msgctxt "Button in list view actions menu"
+msgid "Edit"
+msgstr "تعديل"
+
+#: frappe/website/doctype/web_form/templates/web_form.html:20
+msgctxt "Button in web form"
+msgid "Edit"
+msgstr "تعديل"
+
+#: frappe/public/js/frappe/form/grid_row.js:337
+msgctxt "Edit grid row"
+msgid "Edit"
+msgstr "تعديل"
+
+#: frappe/public/js/frappe/views/workspace/workspace.js:1544
+msgid "Page Saved Successfully"
+msgstr "تم حفظ الصفحة بنجاح"
+
+#: frappe/public/js/frappe/views/workspace/workspace.js:556
+msgid "Customizations Discarded"
+msgstr "تم تجاهل التعديلات"
+
+#: frappe/desk/doctype/todo/todo_list.js:17
+#: frappe/public/js/frappe/form/templates/form_links.html:18
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:277
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:278
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:289
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:299
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:308
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:326
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:327
+#: frappe/social/doctype/energy_point_log/energy_point_log_list.js:23
+msgid "Open {0}"
+msgstr "فتح {0}"
+
+#: frappe/app.py:369 frappe/public/js/frappe/request.js:147
+msgid "The resource you are looking for is not available"
+msgstr "الرابط الذي تبحث عنه غير متاح"
+
+#: frappe/public/js/frappe/request.js:145 frappe/website/js/website.js:94
+msgid "Not found"
+msgstr "غير موجود"
+
+#: frappe/app.py:368 frappe/www/404.html:3
+msgid "Not Found"
+msgstr "غير موجود"
+
+#. Label of a Section Break field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Basic Info"
+msgstr "المعلومات الأساسيّة"
+
+#. Label of a Tab Break field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Roles & Permissions"
+msgstr "الأدوار والصلاحيّات"
+
+#. Label of a Tab Break field in DocType 'DocType'
+#. Label of a Tab Break field in DocType 'Module Def'
+#. Label of a Tab Break field in DocType 'User'
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/module_def/module_def.json
+#: frappe/core/doctype/user/user.json
+#: frappe/public/js/frappe/form/dashboard.js:54
+msgid "Connections"
+msgstr "الصلات"
+
+#: frappe/public/js/frappe/form/controls/comment.js:78
+msgid "Type a reply / comment"
+msgstr "اترك تعليقاً أو رد على تعليق آخر"
+
+#. Group in User's connections
+#: frappe/core/doctype/user/user.json
+#: frappe/public/js/frappe/form/dashboard.js:22
+#: frappe/public/js/frappe/form/footer/form_timeline.js:60
+msgid "Activity"
+msgstr "النشاط"
+
+#: frappe/model/meta.py:54 frappe/public/js/frappe/form/controls/comment.js:9
+#: frappe/public/js/frappe/model/meta.js:206
+#: frappe/public/js/frappe/model/model.js:135
+#: frappe/website/doctype/web_form/templates/web_form.html:119
+msgid "Comments"
+msgstr "التعليقات"
+
+#: frappe/public/js/frappe/form/templates/timeline_message_box.html:33
+msgid "commented"
+msgstr "أضاف تعليقاً"
+
+#: frappe/public/js/frappe/form/footer/form_timeline.js:625
+#: frappe/templates/discussions/reply_card.html:16
+#: frappe/templates/discussions/reply_section.html:29
+msgid "Dismiss"
+msgstr "إلغاء"
+
+#: frappe/public/js/frappe/widgets/onboarding_widget.js:577
+msgctxt "Stop showing the onboarding widget."
+msgid "Dismiss"
+msgstr "إلغاء"
+
+#: frappe/public/js/frappe/form/footer/form_timeline.js:738
+msgid "Would you like to publish this comment? This means it will become visible to website/portal users."
+msgstr "هل تود نشر هذا التعليق؟ عند النشر سيظهر هذا التعليق لمستخدمي الموقع."
+
+#: frappe/public/js/frappe/form/footer/form_timeline.js:69
+msgid "Show all activity"
+msgstr "عرض كل النشاط"
+
+#. Label of a Section Break field in DocType 'Custom DocPerm'
+#. Label of a Section Break field in DocType 'DocField'
+#. Label of a Section Break field in DocType 'DocPerm'
+#. Label of a Table field in DocType 'DocType'
+#. Label of a Section Break field in DocType 'System Settings'
+#. Label of a Card Break in the Users Workspace
+#. Label of a Section Break field in DocType 'Customize Form Field'
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docfield/docfield.json
+#: frappe/core/doctype/docperm/docperm.json
+#: frappe/core/doctype/doctype/doctype.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/core/doctype/user/user.js:145 frappe/core/doctype/user/user.js:154
+#: frappe/core/page/permission_manager/permission_manager.js:214
+#: frappe/core/workspace/users/users.json
+#: frappe/custom/doctype/customize_form_field/customize_form_field.json
+msgid "Permissions"
+msgstr "الصلاحيّات"
+
+#. Label of a Section Break field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Desk Settings"
+msgstr "إعدادات المكتب"
+
+#: frappe/model/meta.py:55
+#: frappe/public/js/frappe/form/templates/form_sidebar.html:48
+#: frappe/public/js/frappe/list/list_sidebar_group_by.js:71
+#: frappe/public/js/frappe/model/meta.js:207
+#: frappe/public/js/frappe/model/model.js:136
+#: frappe/public/js/frappe/views/interaction.js:82
+msgid "Assigned To"
+msgstr "تكليف"
+
+#. Label of a Link field in DocType 'Assignment Rule User'
+#. Label of a Link field in DocType 'Reminder'
+#. Label of a Link field in DocType 'Activity Log'
+#. Label of a Link field in DocType 'Communication'
+#. Label of a Link field in DocType 'DocShare'
+#. Label of a Link field in DocType 'Log Setting User'
+#. Linked DocType in Module Profile's connections
+#. Label of a Link field in DocType 'Permission Inspector'
+#. Linked DocType in Role Profile's connections
+#. Name of a DocType
+#. Label of a Link field in DocType 'User Group Member'
+#. Label of a Link field in DocType 'User Permission'
+#. Label of a Link in the Users Workspace
+#. Label of a shortcut in the Users Workspace
+#. Label of a Link field in DocType 'Dashboard Settings'
+#. Label of a Link field in DocType 'Note Seen By'
+#. Label of a Link field in DocType 'Notification Settings'
+#. Label of a Link field in DocType 'Route History'
+#. Label of a Link field in DocType 'Document Follow'
+#. Label of a Link field in DocType 'Google Calendar'
+#. Label of a Link field in DocType 'OAuth Authorization Code'
+#. Label of a Link field in DocType 'OAuth Bearer Token'
+#. Label of a Link field in DocType 'OAuth Client'
+#. Label of a Link field in DocType 'Token Cache'
+#. Label of a Link field in DocType 'Webhook Request Log'
+#. Label of a Link field in DocType 'Energy Point Log'
+#. Label of a Link field in DocType 'Blogger'
+#. Label of a Link field in DocType 'Personal Data Download Request'
+#. Label of a Link field in DocType 'Workflow Action'
+#: frappe/automation/doctype/assignment_rule_user/assignment_rule_user.json
+#: frappe/automation/doctype/reminder/reminder.json
+#: frappe/core/doctype/activity_log/activity_log.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/docshare/docshare.json
+#: frappe/core/doctype/log_setting_user/log_setting_user.json
+#: frappe/core/doctype/module_profile/module_profile.json
+#: frappe/core/doctype/permission_inspector/permission_inspector.json
+#: frappe/core/doctype/role_profile/role_profile.json
+#: frappe/core/doctype/user/user.json
+#: frappe/core/doctype/user_group_member/user_group_member.json
+#: frappe/core/doctype/user_permission/user_permission.json
+#: frappe/core/report/permitted_documents_for_user/permitted_documents_for_user.js:8
+#: frappe/core/workspace/users/users.json
+#: frappe/desk/doctype/dashboard_settings/dashboard_settings.json
+#: frappe/desk/doctype/note_seen_by/note_seen_by.json
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+#: frappe/desk/doctype/route_history/route_history.json
+#: frappe/desk/page/user_profile/user_profile_controller.js:65
+#: frappe/email/doctype/document_follow/document_follow.json
+#: frappe/integrations/doctype/google_calendar/google_calendar.json
+#: frappe/integrations/doctype/oauth_authorization_code/oauth_authorization_code.json
+#: frappe/integrations/doctype/oauth_bearer_token/oauth_bearer_token.json
+#: frappe/integrations/doctype/oauth_client/oauth_client.json
+#: frappe/integrations/doctype/token_cache/token_cache.json
+#: frappe/integrations/doctype/webhook_request_log/webhook_request_log.json
+#: frappe/public/js/frappe/form/templates/set_sharing.html:3
+#: frappe/social/doctype/energy_point_log/energy_point_log.json
+#: frappe/templates/emails/energy_points_summary.html:38
+#: frappe/website/doctype/blogger/blogger.json
+#: frappe/website/doctype/personal_data_download_request/personal_data_download_request.json
+#: frappe/workflow/doctype/workflow_action/workflow_action.json
+msgid "User"
+msgstr "مستخدم"
+
+#. Label of a Link field in DocType 'Access Log'
+#: frappe/core/doctype/access_log/access_log.json
+msgid "User "
+msgstr "مستخدم"
+
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:98
+msgid "Add to ToDo"
+msgstr "أضف إلى مهمّة"
+
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:173
+msgid "Assign to me"
+msgstr "تكليفي بها"
+
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:180
+msgid "Assign To User Group"
+msgstr "تكليف إلى مجموعة مستخدمين"
+
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:202
+msgid "Complete By"
+msgstr "تاريخ التسليم"
+
+#. Label of a Int field in DocType 'Assignment Rule'
+#. Label of a Int field in DocType 'Document Naming Rule'
+#. Label of a Select field in DocType 'ToDo'
+#. Label of a Int field in DocType 'Email Queue'
+#. Label of a Int field in DocType 'Web Page'
+#: frappe/automation/doctype/assignment_rule/assignment_rule.json
+#: frappe/core/doctype/document_naming_rule/document_naming_rule.json
+#: frappe/desk/doctype/todo/todo.json frappe/desk/report/todo/todo.py:37
+#: frappe/email/doctype/email_queue/email_queue.json
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:210
+#: frappe/website/doctype/web_page/web_page.json
+msgid "Priority"
+msgstr "الأولويّة"
+
+#: frappe/public/js/frappe/form/controls/link.js:321
+#: frappe/public/js/frappe/form/controls/link.js:323
+#: frappe/public/js/frappe/form/link_selector.js:139
+#: frappe/public/js/frappe/list/list_view.js:506
+#: frappe/public/js/frappe/web_form/web_form_list.js:225
+msgid "Create a new {0}"
+msgstr "انشاء {0} جديد"
+
+#: frappe/public/js/frappe/form/sidebar/assign_to.js:267
+msgid "Assigning..."
+msgstr "جاري التكليف..."
+
+#. Name of a DocType
+#: frappe/core/doctype/user_group/user_group.json
+msgid "User Group"
+msgstr "مجموعة مستخدمين"
+
+#. Name of a DocType
+#: frappe/core/doctype/user_group_member/user_group_member.json
+msgid "User Group Member"
+msgstr "عضو مجموعة مستخدمين"
+
+#. Label of a Table MultiSelect field in DocType 'User Group'
+#: frappe/core/doctype/user_group/user_group.json
+msgid "User Group Members"
+msgstr "أعضاء مجموعة المستخدمين"
+
+#. Label of a shortcut in the Tools Workspace
+#. Linked DocType in User's connections
+#. Name of a DocType
+#. Name of a report
+#: frappe/automation/doctype/assignment_rule/assignment_rule.py:55
+#: frappe/automation/workspace/tools/tools.json
+#: frappe/core/doctype/user/user.json frappe/desk/doctype/todo/todo.json
+#: frappe/desk/report/todo/todo.json
+msgid "ToDo"
+msgstr "مهمة بسيطة"
+
+#. Option for the 'Status' (Select) field in DocType 'Contact'
+#. Option for the 'Status' (Select) field in DocType 'Communication'
+#. Option for the 'Email Status' (Select) field in DocType 'Communication'
+#. Option for the 'Status' (Select) field in DocType 'Event'
+#. Option for the 'Status' (Select) field in DocType 'ToDo'
+#. Option for the 'Status' (Select) field in DocType 'Workflow Action'
+#: frappe/contacts/doctype/contact/contact.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/deleted_document/deleted_document.js:7
+#: frappe/desk/doctype/event/event.json frappe/desk/doctype/todo/todo.json
+#: frappe/workflow/doctype/workflow_action/workflow_action.json
+msgid "Open"
+msgstr "جاري"
+
+#. Option for the 'Status' (Select) field in DocType 'Activity Log'
+#. Option for the 'Status' (Select) field in DocType 'Communication'
+#. Option for the 'Status' (Select) field in DocType 'Event'
+#. Option for the 'Status' (Select) field in DocType 'ToDo'
+#: frappe/core/doctype/activity_log/activity_log.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/desk/doctype/event/event.json frappe/desk/doctype/todo/todo.json
+msgid "Closed"
+msgstr "مغلق"
+
+#. Option for the 'Comment Type' (Select) field in DocType 'Comment'
+#. Option for the 'Comment Type' (Select) field in DocType 'Communication'
+#. Option for the 'Status' (Select) field in DocType 'Event'
+#. Option for the 'Status' (Select) field in DocType 'ToDo'
+#. Option for the 'Status' (Select) field in DocType 'Integration Request'
+#: frappe/core/doctype/comment/comment.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/desk/doctype/event/event.json frappe/desk/doctype/todo/todo.json
+#: frappe/desk/form/save.py:59
+#: frappe/integrations/doctype/integration_request/integration_request.json
+#: frappe/public/js/frappe/model/indicator.js:78
+#: frappe/public/js/frappe/ui/filters/filter.js:537
+msgid "Cancelled"
+msgstr "ملغي"
+
+#. Label of a Date field in DocType 'ToDo'
+#: frappe/desk/doctype/todo/todo.json
+msgid "Due Date"
+msgstr "تاريخ التسليم"
+
+#. Label of a Link field in DocType 'ToDo'
+#: frappe/desk/doctype/todo/todo.json
+msgid "Allocated To"
+msgstr "المكلّف بها"
+
+#: frappe/core/doctype/communication/communication.js:39
+#: frappe/desk/doctype/todo/todo.js:23
+#: frappe/public/js/frappe/form/form_tour.js:17
+#: frappe/public/js/frappe/ui/messages.js:246
+#: frappe/website/js/bootstrap-4.js:24
+msgid "Close"
+msgstr "إغلاق"
+
+#: frappe/public/js/frappe/form/toolbar.js:379
+#: frappe/public/js/frappe/form/toolbar.js:768
+msgid "Jump to field"
+msgstr "القفز إلى حقل"
+
+#. Label of a Card Break in the Tools Workspace
+#. Option for the 'Type' (Select) field in DocType 'Communication'
+#. Label of a Check field in DocType 'Custom DocPerm'
+#. Label of a Check field in DocType 'DocPerm'
+#. Option for the 'Two Factor Authentication method' (Select) field in DocType
+#. 'System Settings'
+#. Label of a Tab Break field in DocType 'System Settings'
+#. Label of a Data field in DocType 'User'
+#. Label of a Section Break field in DocType 'User'
+#. Label of a Check field in DocType 'User Document Type'
+#. Label of a Data field in DocType 'Event Participants'
+#. Label of a Data field in DocType 'Email Group Member'
+#. Label of a Data field in DocType 'Email Unsubscribe'
+#. Option for the 'Channel' (Select) field in DocType 'Notification'
+#. Label of a Data field in DocType 'Personal Data Deletion Request'
+#: frappe/automation/workspace/tools/tools.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/custom_docperm/custom_docperm.json
+#: frappe/core/doctype/docperm/docperm.json
+#: frappe/core/doctype/success_action/success_action.js:59
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/core/doctype/user/user.json
+#: frappe/core/doctype/user_document_type/user_document_type.json
+#: frappe/desk/doctype/event_participants/event_participants.json
+#: frappe/email/doctype/email_group_member/email_group_member.json
+#: frappe/email/doctype/email_unsubscribe/email_unsubscribe.json
+#: frappe/email/doctype/newsletter/newsletter.js:156
+#: frappe/email/doctype/notification/notification.json
+#: frappe/public/js/frappe/form/success_action.js:85
+#: frappe/public/js/frappe/form/toolbar.js:365
+#: frappe/templates/includes/comments/comments.html:25
+#: frappe/templates/signup.html:9
+#: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.json
+#: frappe/www/login.html:7 frappe/www/login.py:102
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#: frappe/public/js/frappe/form/grid_row_form.js:42
+#: frappe/public/js/frappe/form/toolbar.js:401
+#: frappe/public/js/frappe/views/workspace/workspace.js:853
+#: frappe/public/js/frappe/views/workspace/workspace.js:1020
+msgid "Duplicate"
+msgstr "تكرار"
+
+#. Header text in the Website Workspace
+#: frappe/website/workspace/website/website.json
+msgid "<span class=\"h4\"><b>Reports & Masters</b></span>"
+msgstr "<span class=\"h4\"><b>التقارير والبيانات الرئيسيّة</b></span>"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Disable Document Sharing"
+msgstr "تعطيل مشاركة المستندات"
+
+#. Description of the 'Currency' (Link) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Default display currency"
+msgstr "العملة الافتراضيّة للعرض"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Use Number Format from Currency"
+msgstr "استخدم تنسيق الأرقام بناءً على العملة"
+
+#. Label of a Select field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "First Day of the Week"
+msgstr "بداية الأسبوع"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Apply Strict User Permissions"
+msgstr "تطبيق صلاحيات صارمة للمستخدمين"
+
+#. Description of the 'Apply Strict User Permissions' (Check) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If Apply Strict User Permission is checked and User Permission is defined for a DocType for a User, then all the documents where value of the link is blank, will not be shown to that User"
+msgstr "إذا تم تفعيل خيار "تطبيق صلاحيات صارمة للمستخدمين" وتم تعريف صلاحيات المستخدم لنوع مستند معين لمستخدم ما، فلن يتم عرض أي مستند تكون فيه قيمة الرابط فارغة لذلك المستخدم."
+
+#. Label of a Select field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Rounding Method"
+msgstr "طريقة تقريب الأرقام"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Allow Older Web View Links (Insecure)"
+msgstr "السماح لروابط الويب القديمة (غير آمن)"
+
+#. Label of a Link in the Tools Workspace
+#. Name of a DocType
+#: frappe/automation/workspace/tools/tools.json
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+#: frappe/public/js/frappe/ui/notifications/notifications.js:37
+msgid "Notification Settings"
+msgstr "إعدادات الإشعارات"
+
+#. Option for the 'Operation' (Select) field in DocType 'Activity Log'
+#. Label of a Tab Break field in DocType 'System Settings'
+#: frappe/core/doctype/activity_log/activity_log.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/public/js/frappe/web_form/webform_script.js:16
+#: frappe/templates/discussions/discussions_section.html:60
+#: frappe/templates/discussions/reply_section.html:44
+#: frappe/templates/includes/navbar/dropdown_login.html:15
+#: frappe/templates/includes/navbar/navbar_login.html:25
+#: frappe/website/page_renderers/not_permitted_page.py:24
+#: frappe/www/login.html:42
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#. Label of a Data field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Session Expiry (idle timeout)"
+msgstr "فترة صلاحيّة الجلسة (فترة الخمول)"
+
+#. Description of the 'Session Expiry (idle timeout)' (Data) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours."
+msgstr "مثال: ضبط هذه القيمة لتكون 24:00 ستسبب خروج المستخدم بعد 24 ساعة إن لم يكن يستخدم النظام."
+
+#. Label of a Int field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Document Share Key Expiry (in Days)"
+msgstr "فترة صلاحيّة مفتاح مشاركة المستندات (بالأيام)"
+
+#. Description of the 'Document Share Key Expiry (in Days)' (Int) field in
+#. DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Number of days after which the document Web View link shared on email will be expired"
+msgstr "عدد أيام صلاحيّة روابط الويب الخاصة بالمستندات، والتي يتم إرسالها بالبريد الإلكتروني."
+
+#. Description of the 'Allow only one session per user' (Check) field in
+#. DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Note: Multiple sessions will be allowed in case of mobile device"
+msgstr "ملاحظة: سيتم السماح لجلسات متعددة في حالة استخدام جهاز الموبايل"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Disable Username/Password Login"
+msgstr "تعطيل تسجيل الدخول باستخدام اسم المستخدم وكلمة السر"
+
+#. Description of the 'Disable Username/Password Login' (Check) field in
+#. DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Make sure to configure a Social Login Key before disabling to prevent lockout"
+msgstr "تأكد من ضبط مفتاح التسجيل باستخدام المنصات الاجتماعية قبل التعطيل، كي لا تحجب نفسك من الدخول "
+
+#. Label of a Section Break field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Login Methods"
+msgstr "أساليب تسجيل الدخول"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Login with email link"
+msgstr "تسجيل الدخول باستخدام رابط يُرسَل للبريد الإلكتروني"
+
+#. Label of a Int field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Login with email link expiry (in minutes)"
+msgstr "فترة صلاحية الرابط المُرسَل للبريد الإلكتروني عند تسجيل الدخول (بالدقائق)"
+
+#. Description of the 'Login with email link' (Check) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Allow users to log in without a password, using a login link sent to their email"
+msgstr "السماح للمستخدمين بتسجيل الدخول دون استخدام كلمة سر، عن طريق إرسال للبريد الإلكتروني يتيح لهم الدخول."
+
+#. Label of a Int field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Rate limit for email link login"
+msgstr "تحديد عدد المرات المسموحة لتسجيل الدخول باستخدام البريد الإلكتروني"
+
+#. Description of the 'Rate limit for email link login' (Int) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "You can set a high value here if multiple users will be logging in from the same network."
+msgstr "يمكنك وضع قيمة أعلى هنا في حال وجود عدد من المستخدمين على نفس الشبكة."
+
+#. Label of a Section Break field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Brute Force Security"
+msgstr "الأمان ضد قرصنة القوة الغاشمة"
+
+#. Description of the 'Allow Login After Fail' (Int) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "In seconds"
+msgstr "بالثواني"
+
+#. Label of a Check field in DocType 'Role'
+#. Label of a Section Break field in DocType 'System Settings'
+#: frappe/core/doctype/role/role.json
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Two Factor Authentication"
+msgstr "المصادقة الثنائيّة"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/twofactor.py:434
+msgid "Enable Two Factor Auth"
+msgstr "تشغيل المصادقة الثنائيّة"
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Bypass Two Factor Auth for users who login from restricted IP Address"
+msgstr "تجاوز المصادقة الثنائيّة للمستخدمين الذين يسجلون الدخول من عنوان IP محظور"
+
+#. Description of the 'Bypass Two Factor Auth for users who login from
+#. restricted IP Address' (Check) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If enabled, users who login from Restricted IP Address, won't be prompted for Two Factor Auth"
+msgstr "في حال تشغيلها، لن يُطلب من المستخدمين القيام بالمصادقة الثنائيّة عند دخولهم من عنوان IP محظور."
+
+#. Label of a Check field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Bypass restricted IP Address check If Two Factor Auth Enabled"
+msgstr "تخطى التحقق من عنوان IP محظور في حال تفعيل المصادقة الثنائيّة"
+
+#. Description of the 'Bypass restricted IP Address check If Two Factor Auth
+#. Enabled' (Check) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "If enabled, all users can login from any IP Address using Two Factor Auth. This can also be set only for specific user(s) in User Page"
+msgstr "في حال تشغيلها، يُسمح لجميع المستخدمين بتسجيل الدخول من أي عنوان IP باستخدام المصادقة الثنائيّة. يمكنك أيضاً تفعيل هذا الخيار علر مستخدم معين من صفحة المستخدم."
+
+#. Label of a Select field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Two Factor Authentication method"
+msgstr "طريقة المصادقة المزدوجة"
+
+#. Description of the 'Two Factor Authentication method' (Select) field in
+#. DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Choose authentication method to be used by all users"
+msgstr "اختر طريقة المصادقة لاستخدامها من قبل جميع المستخدمين"
+
+#. Option for the 'Two Factor Authentication method' (Select) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "OTP App"
+msgstr "تطبيق كلمة السر المستخدمة لمرة واحدة (OTP)"
+
+#. Option for the 'Type' (Select) field in DocType 'Communication'
+#. Option for the 'Two Factor Authentication method' (Select) field in DocType
+#. 'System Settings'
+#. Option for the 'Channel' (Select) field in DocType 'Notification'
+#: frappe/core/doctype/communication/communication.json
+#: frappe/core/doctype/system_settings/system_settings.json
+#: frappe/email/doctype/notification/notification.json
+msgid "SMS"
+msgstr "رسالة نصيّة"
+
+#. Label of a Int field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Expiry time of QR Code Image Page"
+msgstr "فترة انتهاء صلاحية صفحة QR Code"
+
+#. Description of the 'Expiry time of QR Code Image Page' (Int) field in
+#. DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "Time in seconds to retain QR code image on server. Min:<strong>240</strong>"
+msgstr "عدد الثواني للاحتفاظ بصورة QR Code على الخادم. الحد الأدنى: <strong>240</strong>"
+
+#. Label of a Data field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+msgid "OTP Issuer Name"
+msgstr "اسم الجهة المصدرة في تطبيق OTP"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:149
+#: frappe/public/js/frappe/form/controls/multicheck.js:166
+#: frappe/public/js/frappe/form/grid_row.js:470
+msgid "Select All"
+msgstr "تحديد الكل"
+
+#: frappe/public/js/frappe/data_import/data_exporter.js:159
+#: frappe/public/js/frappe/form/controls/multicheck.js:166
+msgid "Unselect All"
+msgstr "إلغاء تحديد الكل"
+
+#. Label of a Section Break field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Allow Modules"
+msgstr "السماح للأقسام"
+
+#. Label of a Small Text field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+#: frappe/desk/page/user_profile/user_profile_sidebar.html:37
+msgid "Interests"
+msgstr "الإهتمامات"
+
+#: frappe/public/js/frappe/form/footer/form_timeline.js:151
+#: frappe/public/js/frappe/form/sidebar/form_sidebar.js:95
+msgid "You last edited this"
+msgstr "أنت آخر من عدّل هذا"
+
+#: frappe/public/js/frappe/form/footer/form_timeline.js:140
+#: frappe/public/js/frappe/form/sidebar/form_sidebar.js:106
+msgid "You created this"
+msgstr "أنت أنشأت هذا"
+
+#. Label of a Select field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Desk Theme"
+msgstr "سمة المكتب"
+
+#. Option for the 'Desk Theme' (Select) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Light"
+msgstr "فاتح"
+
+#. Option for the 'Desk Theme' (Select) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+#: frappe/public/js/frappe/ui/theme_switcher.js:69
+msgid "Automatic"
+msgstr "تلقائي"
+
+#. Option for the 'Desk Theme' (Select) field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Dark"
+msgstr "داكن"
+
+#. Label of a Attach Image field in DocType 'User'
+#. Label of a Attach Image field in DocType 'Web Form'
+#: frappe/core/doctype/user/user.json
+#: frappe/website/doctype/web_form/web_form.json
+msgid "Banner Image"
+msgstr "صورة غلاف"
+
+#. Label of a Section Break field in DocType 'User'
+#: frappe/core/doctype/user/user.json
+msgid "Navigation Settings"
+msgstr "إعدادات التصفح"
+
+#. Linked DocType in Module Def's connections
+#. Label of a Section Break field in DocType 'User'
+#. Label of a Link in the Build Workspace
+#. Name of a DocType
+#: frappe/core/doctype/module_def/module_def.json
+#: frappe/core/doctype/user/user.json frappe/core/workspace/build/build.json
+#: frappe/desk/doctype/workspace/workspace.json
+#: frappe/public/js/frappe/ui/toolbar/search_utils.js:557
+#: frappe/public/js/frappe/views/workspace/workspace.js:10
+msgid "Workspace"
+msgstr "مساحة العمل"
+
+#: frappe/public/js/frappe/utils/pretty_date.js:54
+msgid "{0} hours ago"
+msgstr "قبل {0} ساعات"
+
+#: frappe/public/js/frappe/ui/theme_switcher.js:130
+msgid "Theme Changed"
+msgstr "تم تغيير السمة"

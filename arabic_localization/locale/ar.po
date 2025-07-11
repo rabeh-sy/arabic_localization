@@ -1506,3 +1506,7 @@ msgstr "يتم فتح التطبيق الأساسي مباشرةً بعد تسج
 #: frappe/automation/workspace/tools/tools.json
 msgid "Import Data"
 msgstr "استيراد البيانات"
+
+#: frappe/public/js/frappe/list/list_view.js:503
+msgid "You haven't created a {0} yet"
+msgstr "لم تقم بإنشاء {0} بعد"

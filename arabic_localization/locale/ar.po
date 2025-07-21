@@ -1510,3 +1510,27 @@ msgstr "استيراد البيانات"
 #: frappe/public/js/frappe/list/list_view.js:503
 msgid "You haven't created a {0} yet"
 msgstr "لم تقم بإنشاء {0} بعد"
+
+#: frappe/public/js/frappe/model/indicator.js:73
+#: frappe/public/js/frappe/ui/filters/filter.js:535
+msgid "Draft"
+msgstr "مسودة"
+
+#: frappe/public/js/frappe/form/form.js:1144
+msgid "Submit this document to confirm"
+msgstr "يرجى تسجيل المستند للتأكيد"
+
+#. Option for the 'Comment Type' (Select) field in DocType 'Comment'
+#. Option for the 'Comment Type' (Select) field in DocType 'Communication'
+#: frappe/core/doctype/comment/comment.json
+#: frappe/core/doctype/communication/communication.json
+#: frappe/public/js/frappe/model/indicator.js:95
+#: frappe/public/js/frappe/ui/filters/filter.js:536
+#: frappe/website/doctype/web_form/templates/web_form.html:133
+msgid "Submitted"
+msgstr "تم التسجيل"
+
+#: frappe/public/js/frappe/utils/utils.js:1128
+msgctxt "Hours (Field: Duration)"
+msgid "h"
+msgstr "س"
